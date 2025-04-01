@@ -18,4 +18,4 @@ format:
     toc: true
 
 resources:
-  - projects/vancouvertrees
+  - /vancouvertrees
