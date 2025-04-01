@@ -25,6 +25,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Vancouver Trees Dashboard\nA web app for exploring all public trees in Vancouver. Includes an interactive map, Google Street View integration, a table for exploring species, and a heatmap for exploring tree height by neighbourhood.\n👉 Launch the app\nTechnologies used:\n\nR Shiny\nCustom JavaScript\n\nMore details:\n\nGitHub Repository\nData Source"
+    "text": "Vancouver Trees Dashboard \nA web app for exploring all public trees in Vancouver. Includes an interactive map, Google Street View integration, a table for exploring species, and a heatmap for exploring tree height by neighbourhood.\n👉 Launch the app\nTechnologies used:\n\nR Shiny\nCustom JavaScript\n\nMore details:\n\nGitHub Repository\nData Source"
   }
 ]
