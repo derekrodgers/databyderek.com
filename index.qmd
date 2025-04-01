@@ -1,0 +1,47 @@
+---
+title: "Data by Derek"
+include-in-header:
+  - text: |
+     <link rel = "shortcut icon" href = "favicon.ico" />
+about:
+  id: hero-heading
+  template: trestles
+  image: headshot.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/derekgrodgers/
+    - icon: github
+      text: GitHub
+      href: https://github.com/derekrodgers
+format:
+  html:
+    theme:
+      dark: darkly
+    css: styles.css
+    toc: false
+---
+
+Hi, I'm Derek!
+
+I'm a data scientist and analytics professional with eight years of experience across multiple subject matter areas.
+
+I love solving complex technical problems, especially wrangling, analyzing, interactively exploring, and interpreting data.
+
+Most recently, I was creating [interactive dashboards](https://www.salussafety.io/reporting){target="_blank"} for the construction industry. Currently, I'm finishing a [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} at UBC.
+
+## Experience
+
+SALUS | Data Analyst | Jan 2024 - Sept 2024
+
+MotionHall | Scientific Analyst | Sept 2017 - Feb 2023
+
+## Education
+
+University of British Columbia | Vancouver, BC
+
+- Master of Data Science | Sept 2024 - June 2025
+
+Dalhousie University | Halifax, NS
+
+- B.Sc. in Neuroscience | Sept 2014 - June 2017

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <title>Vancouver Trees Dashboard</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f2f2f2;
+      color: #333;
+    }
+    .spinner {
+      border: 8px solid #ccc;
+      border-top: 8px solid #333;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="spinner"></div>
+  <img src="favicon.png" alt="App Icon" style="width: 40px; height: 40px; margin-bottom: 10px;" />
+  <h2>Launching Vancouver Trees Dashboard...</h2>
+
+  <script>
+    const targetURL = "https://vancouvertrees.fly.dev";
+
+    async function checkAppReady() {
+      try {
+        const response = await fetch(targetURL, { method: "HEAD", mode: "no-cors" });
+        // Even if we get no-cors, redirect anyway — it likely means it's up
+        window.location.href = targetURL;
+      } catch (err) {
+        // Retry every 2s if down
+        setTimeout(checkAppReady, 2000);
+      }
+    }
+
+    checkAppReady();
+  </script>
+</body>
+</html>

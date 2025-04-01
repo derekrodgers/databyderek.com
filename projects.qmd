@@ -1,0 +1,21 @@
+---
+title: "Projects"
+format: html
+---
+
+### Vancouver Trees Dashboard
+
+A web app for exploring all public trees in Vancouver. Includes an interactive map, Google Street View integration, a table for exploring species, and a heatmap for exploring tree height by neighbourhood.
+
+👉 [Launch the app](https://vancouvertrees.databyderek.com){target="_blank"}
+
+Technologies used:
+
+- [R Shiny](https://shiny.posit.co/){target="_blank"}
+- Custom JavaScript
+
+More details:
+
+- [GitHub Repository](https://github.com/derekrodgers/vancouver-trees-dashboard){target="_blank"}
+- [Data Source](https://opendata.vancouver.ca/explore/dataset/public-trees/information/?disjunctive.neighbourhood_name&disjunctive.on_street&disjunctive.species_name&disjunctive.common_name){target="_blank"}
+
