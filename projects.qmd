@@ -3,18 +3,57 @@ title: "Projects"
 format: html
 ---
 
-### Vancouver Trees Dashboard <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.25em; margin-bottom: 0.1em;">
+### Vancouver Trees Dashboard (2025)
 
-A web app for exploring all public trees in Vancouver. Includes an interactive map, Google Street View integration, a table for exploring species, and a heatmap for exploring tree height by neighbourhood.
+A side project, just for fun! <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.25em; margin-bottom: 0.1em;">
 
-👉 [Launch the app](https://databyderek.com/vancouvertrees){target="_blank"}
+This web app lets you explore all public trees in Vancouver, BC. Includes an interactive map, Google Street View integration, a table for exploring species, and a heatmap for exploring tree height by neighbourhood.
+
+- [🌐 Live app](https://databyderek.com/vancouvertrees){target="_blank"}
+- [GitHub Repository](https://github.com/derekrodgers/vancouver-trees-dashboard){target="_blank"}
 
 Technologies used:
 
 - [R Shiny](https://shiny.posit.co/){target="_blank"}
 - Custom JavaScript
 
-More details:
+### Automated Medical Image Segmentation for Precision Orthopedic Surgery (2025)
 
-- [GitHub Repository](https://github.com/derekrodgers/vancouver-trees-dashboard){target="_blank"}
-- [Data Source](https://opendata.vancouver.ca/explore/dataset/public-trees/information/?disjunctive.neighbourhood_name&disjunctive.on_street&disjunctive.species_name&disjunctive.common_name){target="_blank"}
+Capstone project for my [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} at the University of British Columbia in Vancouver, BC.
+
+This project was a collaboration with the [Digital Lab at the BC Children's Hospital](https://www.digitallab.org/){target="_blank"}. Our team developed a dashboard and end-to-end machine learning pipeline to automatically segment bones from CT scan imagery and export these models for 3D printing. This end-to-end pipeline will allow clinical engineers and orthopedic surgeons to more quickly and accurately plan procedures, increasing caseload capacity and reducing patient wait times.
+
+Technologies used:
+
+- [nnU-Net](https://github.com/MIC-DKFZ/nnUNet){target="_blank"} neural network architecture
+- [Plotly Dash](https://plotly.com/dash/){target="_blank"}
+- [Python](https://www.python.org/){target="_blank"}
+- [Docker](https://www.docker.com/){target="_blank"}
+
+### Patient Validation of a Motor Imagery-based Neurofeedback Paradigm (2017)
+
+Undergraduate Honours Project for my [B.Sc. in Neuroscience](https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html) at Dalhousie University in Halifax, NS.
+
+Designed and implemented digital signal processing and analysis pipelines for high-resolution MEG data to evaluate a motor imagery–based neurofeedback paradigm in stroke patients. Developed preprocessing, artifact rejection, and source localization workflows in Python to detect and quantify beta-band activity in sensorimotor cortex, producing visualizations and laterality metrics to compare patient and control data.
+
+Technologies used:
+
+- [Python](https://www.python.org/){target="_blank"}
+- [NumPy](https://numpy.org/){target="_blank"}
+- [SciPy](https://scipy.org/){target="_blank"}
+- [Matplotlib](https://matplotlib.org/){target="_blank"}
+
+### Android App for EEG-based Neurofeedback in Stroke Recovery (2015)
+
+Summer Undergraduate Research Fellowship (RADIANT Program), IWK Health Centre, Halifax, NS.
+
+Collected and analyzed electroencephalography (EEG) data for a project investigating neurofeedback in motor imagery therapy, supporting the development of a brain-computer interface for stroke recovery.
+
+Developed and tested a mobile application that implemented the project’s digital signal processing algorithms for live EEG data, providing a mobile platform for neurofeedback-assisted motor imagery therapy.
+
+Technologies used:
+
+- [MATLAB](https://www.mathworks.com/products/matlab.html){target="_blank"}
+- [Java](https://www.java.com/en/){target="_blank"}
+- [Android Studio](https://developer.android.com/studio){target="_blank"}
+- [Android SDK](https://developer.android.com/sdk){target="_blank"}
