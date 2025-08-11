@@ -5,14 +5,14 @@ format: html
 
 ### Vancouver Trees Dashboard (2025)
 
-A side project, for fun! <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.25em; margin-bottom: 0.1em;">
+A side project, for fun <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.05em; margin-bottom: 0.2em;">
 
 A web app for exploring public trees in Vancouver. Features an interactive map, Street View integration, a table for searching and sorting species, and a heatmap of tree height by neighbourhood.
 
 - [🌐 Live app](https://databyderek.com/vancouvertrees){target="_blank"}
 - [GitHub Repository](https://github.com/derekrodgers/vancouver-trees-dashboard){target="_blank"}
 
-Technologies used:
+**Technologies used**:
 
 - [R](https://en.wikipedia.org/wiki/R_(programming_language)){target="_blank"}
 - [Shiny (web dashboard framework)](https://en.wikipedia.org/wiki/Shiny_(web_framework)){target="_blank"}
@@ -24,7 +24,7 @@ Capstone project for my [Master of Data Science](https://masterdatascience.ubc.c
 
 Our team developed a web dashboard and machine learning pipeline to automatically segment bones from patient CT scans and export these for 3D printing. This end-to-end solution will allow the hospital's clinical engineers and orthopedic surgeons to more quickly and accurately plan orthopedic surgeries, increasing caseload capacity and reducing patient wait times.
 
-Technologies used:
+**Technologies used**:
 
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)){target="_blank"}
 - [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)){target="_blank"}
@@ -39,7 +39,7 @@ Undergraduate Honours Project for my [B.Sc. in Neuroscience](https://www.dal.ca/
 
 Designed and implemented digital signal processing and analysis pipelines for [MEG](https://en.wikipedia.org/wiki/Magnetoencephalography){target="_blank"} data to evaluate a [motor imagery–based](https://en.wikipedia.org/wiki/Motor_imagery){target="_blank"} [neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback){target="_blank"} paradigm in stroke patients. Developed preprocessing, artifact rejection, and source localization workflows in Python, supporting further clinical work in patients with stroke-related upper limb dysfunction.
 
-Technologies used:
+**Technologies used**:
 
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)){target="_blank"}
 - [NumPy](https://en.wikipedia.org/wiki/NumPy){target="_blank"}
@@ -52,7 +52,7 @@ Undergraduate Research Fellowship during my [B.Sc. in Neuroscience](https://www.
 
 Ported the lab's digital signal processing algorithims for live [EEG](https://en.wikipedia.org/wiki/Electroencephalography){target="_blank"} data from MATLAB to Java. Developed an Android app for live, EEG-based neurofeedback during motor imagery, providing a proof-of-concept for at-home neurofeedback therapy.
 
-Technologies used:
+**Technologies used**:
 
 - [MATLAB](https://en.wikipedia.org/wiki/MATLAB){target="_blank"}
 - [Java](https://en.wikipedia.org/wiki/Java_(programming_language)){target="_blank"}
