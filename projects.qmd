@@ -10,7 +10,6 @@ A side project, for fun <img src="/vancouvertrees/favicon.png" style="height: 1e
 A web app for exploring public trees in Vancouver. Features an interactive map, Street View integration, a table for searching and sorting species, and a heatmap of tree height by neighbourhood.
 
 - [🌐 Live app](https://databyderek.com/vancouvertrees){target="_blank"}
-- [GitHub Repository](https://github.com/derekrodgers/vancouver-trees-dashboard){target="_blank"}
 
 **Technologies used**:
 
