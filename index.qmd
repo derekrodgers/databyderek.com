@@ -2,11 +2,11 @@
 title: "Data by Derek"
 include-in-header:
   - text: |
-     <link rel = "shortcut icon" href = "favicon.ico" />
+     <link rel = "shortcut icon" href = "assets/favicon.ico" />
 about:
   id: hero-heading
   template: trestles
-  image: headshot.jpg
+  image: assets/headshot.jpg
   links:
     - icon: linkedin
       text: LinkedIn
