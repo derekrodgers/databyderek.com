@@ -5,6 +5,8 @@ format: html
 
 ### Vancouver Trees Dashboard (2025)
 
+![](assets/trees_dashboard_screenshot.png){width=700}
+
 A side project, for fun <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.05em; margin-bottom: 0.2em;">
 
 A dashboard for exploring public trees in Vancouver. Features an interactive map, Street View integration, a table for searching and sorting species, and a heatmap of tree height by neighbourhood.
@@ -23,6 +25,8 @@ Capstone project for my [Master of Data Science](https://masterdatascience.ubc.c
 
 Our team developed a web dashboard and machine learning pipeline to automatically segment bones from patient CT scans and export these for 3D printing. This end-to-end solution will allow the hospital's clinical engineers and orthopedic surgeons to more quickly and accurately plan orthopedic surgeries, increasing caseload capacity and reducing patient wait times.
 
+_A screenshot is not available for this project due to a confidentiality agreement._
+
 **Technologies used**:
 
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)){target="_blank"}
@@ -33,6 +37,8 @@ Our team developed a web dashboard and machine learning pipeline to automaticall
 - [Docker](https://en.wikipedia.org/wiki/Docker_(software)){target="_blank"}
 
 ### Patient Validation of a Motor Imagery-based Neurofeedback Paradigm (2017)
+
+![](assets/thesis_MEG_MRI.jpg){width=500}
 
 Undergraduate Honours Project for my [B.Sc. in Neuroscience](https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html){target="_blank"} at [Dalhousie](https://www.dal.ca/){target="_blank"}.
 
@@ -46,6 +52,8 @@ Designed and implemented digital signal processing and analysis pipelines for [M
 - [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib){target="_blank"}
 
 ### Android App for EEG-based Neurofeedback in Stroke Recovery (2015)
+
+![](assets/biotic_nfb_app_screenshot.png){height=400}
 
 Undergraduate Research Fellowship during my [B.Sc. in Neuroscience](https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html){target="_blank"} at [Dalhousie](https://www.dal.ca/){target="_blank"}. A collaboration with the [IWK Health Centre](https://iwkhealth.ca/){target="_blank"}.
 

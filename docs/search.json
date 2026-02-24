@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "Personal portfolio website for a data science career. Built with Quarto, deployed to GitHub Pages at databyderek.com via the docs/ output directory on the main branch.\n\n\n\n_quarto.yml        # Quarto project config (output-dir: docs, theme: cosmo)\nindex.qmd          # Home/about page (uses \"trestles\" about template)\nprojects.qmd       # Projects portfolio page\nstyles.css         # Custom CSS\nassets/            # All images and static files (favicon, headshot, screenshots)\ndocs/              # Rendered output (committed to git, served by GitHub Pages)\nvancouvertrees/    # Embedded Shiny app (copied to docs/ as a resource)\nCNAME              # Custom domain config (databyderek.com)\n\n\n\n\nEdit .qmd files (and _quarto.yml, styles.css, etc.) as requested\nAfter completing a set of edits, always run quarto render from the project root\nNever auto-commit, stage, or push — all git operations are left to the user\n\n\n\n\n\nDo not create new .qmd pages without asking the user first\nMatch the existing tone and formatting of current .qmd content\nAll images and static files go in assets/ — never place them at the project root\nKeep things minimal — don’t add unnecessary features, plugins, or complexity\n\n\n\n\n\nOutput directory: docs/ (committed to git, GitHub Pages serves from here)\nTheme: cosmo (with darkly override for dark mode on the index page)\nResources directive copies vancouvertrees/ and assets/ into docs/\nThe CNAME file must remain at the project root for GitHub Pages custom domain\nChanges to _quarto.yml require a full quarto render to take effect\n\n\n\n\nquarto render\nRun from the project root (/Users/derek/Projects/databyderek.com/). This regenerates everything in docs/."
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "Personal portfolio website for a data science career. Built with Quarto, deployed to GitHub Pages at databyderek.com via the docs/ output directory on the main branch."
+  },
+  {
+    "objectID": "CLAUDE.html#project-structure",
+    "href": "CLAUDE.html#project-structure",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "_quarto.yml        # Quarto project config (output-dir: docs, theme: cosmo)\nindex.qmd          # Home/about page (uses \"trestles\" about template)\nprojects.qmd       # Projects portfolio page\nstyles.css         # Custom CSS\nassets/            # All images and static files (favicon, headshot, screenshots)\ndocs/              # Rendered output (committed to git, served by GitHub Pages)\nvancouvertrees/    # Embedded Shiny app (copied to docs/ as a resource)\nCNAME              # Custom domain config (databyderek.com)"
+  },
+  {
+    "objectID": "CLAUDE.html#workflow",
+    "href": "CLAUDE.html#workflow",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "Edit .qmd files (and _quarto.yml, styles.css, etc.) as requested\nAfter completing a set of edits, always run quarto render from the project root\nNever auto-commit, stage, or push — all git operations are left to the user"
+  },
+  {
+    "objectID": "CLAUDE.html#conventions",
+    "href": "CLAUDE.html#conventions",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "Do not create new .qmd pages without asking the user first\nMatch the existing tone and formatting of current .qmd content\nAll images and static files go in assets/ — never place them at the project root\nKeep things minimal — don’t add unnecessary features, plugins, or complexity"
+  },
+  {
+    "objectID": "CLAUDE.html#key-config-notes",
+    "href": "CLAUDE.html#key-config-notes",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "Output directory: docs/ (committed to git, GitHub Pages serves from here)\nTheme: cosmo (with darkly override for dark mode on the index page)\nResources directive copies vancouvertrees/ and assets/ into docs/\nThe CNAME file must remain at the project root for GitHub Pages custom domain\nChanges to _quarto.yml require a full quarto render to take effect"
+  },
+  {
+    "objectID": "CLAUDE.html#rendering",
+    "href": "CLAUDE.html#rendering",
+    "title": "CLAUDE.md — databyderek.com",
+    "section": "",
+    "text": "quarto render\nRun from the project root (/Users/derek/Projects/databyderek.com/). This regenerates everything in docs/."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Vancouver Trees Dashboard (2025)\n\nA side project, for fun \nA dashboard for exploring public trees in Vancouver. Features an interactive map, Street View integration, a table for searching and sorting species, and a heatmap of tree height by neighbourhood.\n\n🌐 Live app\n\nTechnologies used:\n\nR\nShiny (web dashboard framework)\nDocker\n\n\n\nAutomated Medical Image Segmentation for Precision Orthopedic Surgery (2025)\nCapstone project for my Master of Data Science at UBC. A collaboration with the Digital Lab at the BC Children’s Hospital.\nOur team developed a web dashboard and machine learning pipeline to automatically segment bones from patient CT scans and export these for 3D printing. This end-to-end solution will allow the hospital’s clinical engineers and orthopedic surgeons to more quickly and accurately plan orthopedic surgeries, increasing caseload capacity and reducing patient wait times.\nA screenshot is not available for this project due to a confidentiality agreement.\nTechnologies used:\n\nPython\nPandas\nNumPy\nnnU-Net\nPlotly Dash\nDocker\n\n\n\nPatient Validation of a Motor Imagery-based Neurofeedback Paradigm (2017)\n\nUndergraduate Honours Project for my B.Sc. in Neuroscience at Dalhousie.\nDesigned and implemented digital signal processing and analysis pipelines for MEG data to evaluate a motor imagery–based neurofeedback paradigm in stroke patients. Developed preprocessing, artifact rejection, and source localization workflows in Python, supporting further clinical work in patients with stroke-related upper limb dysfunction.\nTechnologies used:\n\nPython\nNumPy\nSciPy\nMatplotlib\n\n\n\nAndroid App for EEG-based Neurofeedback in Stroke Recovery (2015)\n\nUndergraduate Research Fellowship during my B.Sc. in Neuroscience at Dalhousie. A collaboration with the IWK Health Centre.\nPorted the lab’s digital signal processing algorithims for live EEG data from MATLAB to Java. Developed an Android app for live, EEG-based neurofeedback during motor imagery, providing a proof-of-concept for at-home neurofeedback therapy.\nTechnologies used:\n\nMATLAB\nJava\nAndroid Studio\nAndroid SDK"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data by Derek",
@@ -19,12 +75,5 @@
     "title": "Data by Derek",
     "section": "Education",
     "text": "Education\nUniversity of British Columbia | Vancouver, BC\n\nMaster of Data Science | Sept 2024 - June 2025\n\nDalhousie University | Halifax, NS\n\nB.Sc. (Hons), Neuroscience | Sept 2014 - June 2017"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Vancouver Trees Dashboard (2025)\nA side project, for fun \nA dashboard for exploring public trees in Vancouver. Features an interactive map, Street View integration, a table for searching and sorting species, and a heatmap of tree height by neighbourhood.\n\n🌐 Live app\n\nTechnologies used:\n\nR\nShiny (web dashboard framework)\nDocker\n\n\n\nAutomated Medical Image Segmentation for Precision Orthopedic Surgery (2025)\nCapstone project for my Master of Data Science at UBC. A collaboration with the Digital Lab at the BC Children’s Hospital.\nOur team developed a web dashboard and machine learning pipeline to automatically segment bones from patient CT scans and export these for 3D printing. This end-to-end solution will allow the hospital’s clinical engineers and orthopedic surgeons to more quickly and accurately plan orthopedic surgeries, increasing caseload capacity and reducing patient wait times.\nTechnologies used:\n\nPython\nPandas\nNumPy\nnnU-Net\nPlotly Dash\nDocker\n\n\n\nPatient Validation of a Motor Imagery-based Neurofeedback Paradigm (2017)\nUndergraduate Honours Project for my B.Sc. in Neuroscience at Dalhousie.\nDesigned and implemented digital signal processing and analysis pipelines for MEG data to evaluate a motor imagery–based neurofeedback paradigm in stroke patients. Developed preprocessing, artifact rejection, and source localization workflows in Python, supporting further clinical work in patients with stroke-related upper limb dysfunction.\nTechnologies used:\n\nPython\nNumPy\nSciPy\nMatplotlib\n\n\n\nAndroid App for EEG-based Neurofeedback in Stroke Recovery (2015)\nUndergraduate Research Fellowship during my B.Sc. in Neuroscience at Dalhousie. A collaboration with the IWK Health Centre.\nPorted the lab’s digital signal processing algorithims for live EEG data from MATLAB to Java. Developed an Android app for live, EEG-based neurofeedback during motor imagery, providing a proof-of-concept for at-home neurofeedback therapy.\nTechnologies used:\n\nMATLAB\nJava\nAndroid Studio\nAndroid SDK"
   }
 ]
