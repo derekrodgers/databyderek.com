@@ -53,7 +53,7 @@ Designed and implemented digital signal processing and analysis pipelines for [M
 
 ### Android App for EEG-based Neurofeedback in Stroke Recovery (2015)
 
-![](assets/biotic_nfb_app_screenshot.png){height=400}
+![](assets/biotic_nfb_app_screenshot.png){height=250}
 
 Undergraduate Research Fellowship during my [B.Sc. in Neuroscience](https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html){target="_blank"} at [Dalhousie](https://www.dal.ca/){target="_blank"}. A collaboration with the [IWK Health Centre](https://iwkhealth.ca/){target="_blank"}.
 
