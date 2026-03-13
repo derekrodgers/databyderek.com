@@ -11,12 +11,12 @@ about:
     - icon: kanban
       text: Projects
       href: projects.qmd
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/derekgrodgers/
     - icon: github
       text: GitHub
       href: https://github.com/derekrodgers
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/derekgrodgers/
 format:
   html:
     theme:
