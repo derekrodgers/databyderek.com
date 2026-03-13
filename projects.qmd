@@ -5,7 +5,7 @@ format: html
 
 ### Vancouver Trees Dashboard (2025)
 
-[![](assets/trees_dashboard_screenshot.png){width=700}](https://databyderek.com/vancouvertrees){target="_blank"}
+[![](assets/trees_dashboard_screenshot.png){width=750}](https://databyderek.com/vancouvertrees){target="_blank"}
 
 A side project, for fun <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.05em; margin-bottom: 0.2em;">
 
