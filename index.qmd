@@ -8,6 +8,9 @@ about:
   template: trestles
   image: assets/headshot.jpg
   links:
+    - icon: kanban
+      text: Projects
+      href: projects.qmd
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/derekgrodgers/
