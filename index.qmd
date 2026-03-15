@@ -50,9 +50,9 @@ Dalhousie University | Halifax, NS
 - B.Sc. (Hons), Neuroscience | Sept 2014 - June 2017
 
 <script>
-  // Find all about links and set target="_blank" for external ones
+  // set target="_blank" for external links
   document.querySelectorAll('.about-link').forEach(link => {
-    if (link.href.startsWith('http')) {
+    if (link.href.startsWith('http') && !link.innerText.includes('Projects')) {
       link.target = '_blank';
     }
   });
