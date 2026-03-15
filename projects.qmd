@@ -5,7 +5,9 @@ format: html
 
 ### Automated Medical Image Segmentation for Precision Orthopedic Surgery (2025)
 
-Capstone project for my [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} at [UBC](https://www.ubc.ca/){target="_blank"}. A collaboration with the [Digital Lab](https://www.digitallab.org/){target="_blank"} at the [BC Children's Hospital](https://www.bcchildrens.ca/){target="_blank"}.
+Capstone project for the [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} at [UBC](https://www.ubc.ca/){target="_blank"}.
+
+A collaboration with the [Digital Lab](https://www.digitallab.org/){target="_blank"} at the [BC Children's Hospital](https://www.bcchildrens.ca/){target="_blank"}.
 
 Our team developed a web dashboard and machine learning pipeline to automatically segment bones from patient CT scans and export these for 3D printing. This end-to-end solution will allow the hospital's clinical engineers and orthopedic surgeons to more quickly and accurately plan orthopedic surgeries, increasing caseload capacity and reducing patient wait times.
 
