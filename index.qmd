@@ -48,3 +48,12 @@ University of British Columbia | Vancouver, BC
 Dalhousie University | Halifax, NS
 
 - B.Sc. (Hons), Neuroscience | Sept 2014 - June 2017
+
+<script>
+  // Find all about links and set target="_blank" for external ones
+  document.querySelectorAll('.about-link').forEach(link => {
+    if (link.href.startsWith('http')) {
+      link.target = '_blank';
+    }
+  });
+</script>

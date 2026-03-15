@@ -154,6 +154,14 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>B.Sc. (Hons), Neuroscience | Sept 2014 - June 2017</li>
 </ul>
+<script>
+  // Find all about links and set target="_blank" for external ones
+  document.querySelectorAll('.about-link').forEach(link => {
+    if (link.href.startsWith('http')) {
+      link.target = '_blank';
+    }
+  });
+</script>
 
 
 </section>
