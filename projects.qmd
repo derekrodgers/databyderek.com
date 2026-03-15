@@ -3,27 +3,6 @@ title: "Projects"
 format: html
 ---
 
-### Vancouver Trees Dashboard (2025)
-
-[![](assets/trees_dashboard_screenshot.png){width=750}](https://databyderek.com/vancouvertrees){target="_blank"}
-
-A side project, for fun <img src="/vancouvertrees/favicon.png" style="height: 1em; vertical-align: middle; margin-right: 0.25em; margin-left: 0.05em; margin-bottom: 0.2em;">
-
-Dashboard for exploring Vancouver's public trees:
-
-- Interactive map
-- Street View integration
-- Search and sort species
-- Heatmap of tree height by neighbourhood
-
-- [🌐 Live app](https://databyderek.com/vancouvertrees){target="_blank"}
-
-**Technologies used**:
-
-- [R](https://en.wikipedia.org/wiki/R_(programming_language)){target="_blank"}
-- [Shiny (web dashboard framework)](https://en.wikipedia.org/wiki/Shiny_(web_framework)){target="_blank"}
-- [Docker](https://en.wikipedia.org/wiki/Docker_(software)){target="_blank"}
-
 ### Automated Medical Image Segmentation for Precision Orthopedic Surgery (2025)
 
 Capstone project for my [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} at [UBC](https://www.ubc.ca/){target="_blank"}. A collaboration with the [Digital Lab](https://www.digitallab.org/){target="_blank"} at the [BC Children's Hospital](https://www.bcchildrens.ca/){target="_blank"}.
