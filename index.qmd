@@ -29,7 +29,7 @@ format:
 
 Hi, I'm Derek!
 
-I'm a data scientist and analytics professional with 6+ years in SaaS and science.
+I'm a senior Data Scientist with 6+ years of industry experience.
 
 Most recently, I was creating [interactive dashboards](https://www.salussafety.io/reporting){target="_blank"} for the construction industry. In 2025, I graduated with a [Master of Data Science](https://masterdatascience.ubc.ca/){target="_blank"} from UBC.
 
